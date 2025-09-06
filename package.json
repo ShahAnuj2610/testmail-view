@@ -1,0 +1,18 @@
+{
+  "name": "testmail-view",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx testmail-viewer.ts",
+    "dev": "tsx watch testmail-viewer.ts"
+  },
+  "private": true,
+  "devDependencies": {
+    "tsx": "^4.20.5"
+  },
+  "dependencies": {
+    "cross-fetch": "^4.1.0",
+    "express": "^5.1.0"
+  }
+}
